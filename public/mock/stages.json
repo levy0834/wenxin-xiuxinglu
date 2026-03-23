@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1-1",
+    "name": "山门初试",
+    "chapter": 1,
+    "staminaCost": 5,
+    "recommendedPower": 260,
+    "rewards": { "gold": 120, "exp": 40, "spiritStone": 8 }
+  },
+  {
+    "id": "1-2",
+    "name": "竹影心关",
+    "chapter": 1,
+    "staminaCost": 5,
+    "recommendedPower": 320,
+    "rewards": { "gold": 160, "exp": 50, "spiritStone": 10 }
+  },
+  {
+    "id": "1-3",
+    "name": "试剑古台",
+    "chapter": 1,
+    "staminaCost": 6,
+    "recommendedPower": 380,
+    "rewards": { "gold": 220, "exp": 70, "spiritStone": 15 }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hero_001",
+    "name": "沈青岚",
+    "title": "山门小师兄",
+    "rarity": 3,
+    "level": 1,
+    "basePower": 120,
+    "role": "剑修"
+  },
+  {
+    "id": "hero_002",
+    "name": "白栀",
+    "title": "灵药弟子",
+    "rarity": 2,
+    "level": 1,
+    "basePower": 90,
+    "role": "医修"
+  },
+  {
+    "id": "hero_003",
+    "name": "顾长风",
+    "title": "外门执火者",
+    "rarity": 2,
+    "level": 1,
+    "basePower": 85,
+    "role": "器修"
+  }
+]
