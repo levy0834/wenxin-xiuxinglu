@@ -26,9 +26,16 @@ const defaultState = {
 
 const SAVE_KEY = 'wenxin-xiuxing-save'
 
+const BASE_URL = import.meta.env.BASE_URL || './'
+
+function assetUrl(path) {
+  return `${BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`
+}
+
 async function loadJson(path) {
-  const res = await fetch(path)
-  if (!res.ok) throw new Error(`load failed: ${path}`)
+  const url = assetUrl(path)
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`load failed: ${url}`)
   return res.json()
 }
 
